@@ -19,31 +19,30 @@
       <section id="banner-container">
         <img src="img/imagem_cel_exterior.png"
           alt="2 celulares 1 atrás do outro, o da frente está desligado, enquanto o de trás possui imagem">
-        <img src="img/imagem_cel_interior.jpg" alt="vaso de planta rosa que abriga uma planta alaranjada">
+        <!-- <img src="img/imagem_cel_interior.jpg" alt="vaso de planta rosa que abriga uma planta alaranjada"> -->
       </section>
       <!-- SECAO DE DO FORMULARIO DE LOGIN -->
       <section id="form-container">
         <section id="form-box">
           <img id="logo-instagram" src="img/logo_instagram.png" alt="logo instagram" width="400">
           <form id="login-form" action="" method="post">
-            <label for="user-login">
-              <input type="text" name="user-login" id="user-login" placeholder="Phone number, username or email">
-            </label>
-            <label for="user-password">
-              <input type="password" name="user-password" id="user-password" placeholder="Password">
-            </label>
+            <input type="text" name="user-login" id="user-login" placeholder="Phone number, username, or email">
+            <input type="password" name="user-password" id="user-password" placeholder="Password">
             <button type="submit">Log in</button>
           </form>
           <!--Divisor do formulario -->
           <div class="divisor">
             <div class="line"></div>
-            <span>Or</span>
+            <span>OR</span>
+            <div class="line"></div>
+
           </div>
           <!-- Outros links -->
           <section class="other-links">
-            <div id="login-with-facebook"><a href=""><img src="img/logo_facebook.svg" alt=""> Log in with Facebook</a>
+            <div id="login-with-facebook">
+              <a href=""><img src="img/logo_facebook.svg" alt=""> Log in with Facebook</a>
             </div>
-            <div id="forgot-password"><a href="#">Forgot password</a></div>
+            <div id="forgot-password"><a href="#">Forgot password?</a></div>
           </section>
         </section>
         <!-- Criar conta no site -->
@@ -58,7 +57,7 @@
           <p>
             Get the app
           </p>
-          <div>
+          <div id="get-app-buttons-container">
             <img src="/img/botao_apple.png" alt="botao apple store">
             <img src="/img/botao_google_play.png" alt="botao google play">
           </div>
@@ -90,8 +89,12 @@
       </ul>
     </nav>
     <!-- Seção de selecao de idioma e copyright  -->
-    <section class="copyright-container">
-      <p>English</p>
+    <section id="copyright-container">
+      <select name="" id="">
+        <option value="Enlish">English</option>
+        <option value="Portuguese">Portuguese</option>
+        <option value="Spanish">Spanish</option>
+      </select>
       <p>© 2022 Instagram from Meta</p>
     </section>
   </footer>
