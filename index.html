@@ -1,15 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="clone da pagina home do instagram feito com html e sass">
   <meta name="author" content="Kevin Willian Santos da Silva">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <title>Clone home instagram</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  
+  <main>
+    <div id="main-container">
+      <!-- BANNER PRINCIPAL -->
+      <section id="banner-container">
+        <img src="img/imagem_cel_exterior.png"
+          alt="2 celulares 1 atrás do outro, o da frente está desligado, enquanto o de trás possui imagem">
+        <img src="img/imagem_cel_interior.jpg" alt="vaso de planta rosa que abriga uma planta alaranjada">
+      </section>
+      <!-- SECAO DE DO FORMULARIO DE LOGIN -->
+      <section id="form-container">
+        <section id="form-box">
+          <img id="logo-instagram" src="img/logo_instagram.png" alt="logo instagram" width="400">
+          <form id="login-form" action="" method="post">
+            <label for="user-login">
+              <input type="text" name="user-login" id="user-login" placeholder="Phone number, username or email">
+            </label>
+            <label for="user-password">
+              <input type="password" name="user-password" id="user-password" placeholder="Password">
+            </label>
+            <button type="submit">Log in</button>
+          </form>
+          <!--Divisor do formulario -->
+          <div class="divisor">
+            <div class="line"></div>
+            <span>Or</span>
+          </div>
+          <!-- Outros links -->
+          <section class="other-links">
+            <div id="login-with-facebook"><a href=""><img src="img/logo_facebook.svg" alt=""> Log in with Facebook</a>
+            </div>
+            <div id="forgot-password"><a href="#">Forgot password</a></div>
+          </section>
+        </section>
+        <!-- Criar conta no site -->
+        <section id="register-container">
+          <p>
+            Dont have an account?
+            <a href="">Sign up</a>
+          </p>
+        </section>
+        <!-- Baixar o aplicativo -->
+        <section id="get-app-container">
+          <p>
+            Get the app
+          </p>
+          <div>
+            <img src="/img/botao_apple.png" alt="botao apple store">
+            <img src="/img/botao_google_play.png" alt="botao google play">
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <nav>
+      <!-- Lista de links sobre o instragram -->
+      <ul id="footer-links">
+        <li><a href="#">Meta</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Top Accounts</a></li>
+        <li><a href="#">Hashtags</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Instragram Life</a></li>
+        <li><a href="#">Contact Uploading & Non-Users</a></li>
+        <li><a href="#">Dance</a></li>
+        <li><a href="#">Food & Drink</a></li>
+        <li><a href="#">Home & Garden</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Visual Arts</a></li>
+      </ul>
+    </nav>
+    <!-- Seção de selecao de idioma e copyright  -->
+    <section class="copyright-container">
+      <p>English</p>
+      <p>© 2022 Instagram from Meta</p>
+    </section>
+  </footer>
 </body>
+
 </html>
