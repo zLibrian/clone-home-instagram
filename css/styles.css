@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
+  color: #0095f6;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#banner-container,
+#form-container {
+  flex: 1 1 0;
+  width: 50%;
+}
+
+#banner-container {
+  text-align: right;
+}
+#banner-container img {
+  margin-right: -15px;
+}
+#banner-container:nth-child(2) {
+  margin-right: 180px;
+}
+
+#form-container {
+  text-align: center;
+}
+
+#form-box,
+#register-container {
+  background-color: #FFF;
+  border: 1px solid #DBDBDB;
+  margin-top: 15px;
+  padding-top: 15px;
+  width: 355px;
+  text-align: center;
+}
+
+#logo-instagram {
+  width: 175px;
+  height: 51px;
+  margin: 30px auto 12px;
+  background-color: #FFF;
+}
+
+#login-form {
+  margin-top: 20px;
+  background-color: #FFF;
+}
+#login-form input, #login-form button {
+  display: block;
+  font-size: 12px;
+  color: #949494;
+  padding: 12px 9px;
+  background-color: #FAFAFA;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  width: 268px;
+  margin: 5px auto;
+}
+#login-form input:focus, #login-form button:focus {
+  outline: none;
+}
+#login-form button {
+  background-color: #B2DFFC;
+  color: #FFF;
+  border-radius: 5px;
+  margin-top: 15px;
+  height: 30px;
+  border-color: #B2DFFC;
+  font-size: 13px;
+  padding: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divisor {
+  margin-bottom: 20px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto 15px;
+  align-items: center;
+}
+.divisor span {
+  font-size: 14px;
+  padding: 1em;
+  color: #949494;
+  font-weight: bold;
+}
+
+.line {
+  border: 1px solid #DBDBDB;
+  width: 100%;
+}
+
+.other-links {
+  text-align: center;
+}
+.other-links a {
+  color: #385185;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-with-facebook {
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
+#login-with-facebook img {
+  margin-right: 10px;
+  width: 1.2em;
+}
+
+#forgot-password {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 20px;
+  color: #00376b;
+}
+
+#register-container,
+#get-app-container {
+  font-size: 14px;
+  padding: 20px;
+  width: 355px;
+  margin: 10px 0 15px;
+}
+#register-container a,
+#get-app-container a {
+  font-weight: bold;
+}
+
+#get-app-container {
+  padding: 5px;
+  text-align: center;
+}
+#get-app-container p {
+  margin-bottom: 10px;
+}
+
+#get-app-buttons-container img {
+  margin-top: 10px;
+  width: 136px;
+}
+#get-app-buttons-container img:nth-child(1) {
+  margin-right: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+footer nav {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#footer-links {
+  font-size: 12px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  line-height: 8px;
+  justify-content: center;
+}
+#footer-links li {
+  padding: 5px;
+}
+#footer-links li a {
+  color: #8e8e8e;
+}
+
+#copyright-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#copyright-container select {
+  color: #8e8e8e;
+  border: none;
+}
+#copyright-container p {
+  color: #8e8e8e;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
